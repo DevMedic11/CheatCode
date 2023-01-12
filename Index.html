@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div>
+      <h1>Getting to know CSS Selectors!</h1>
+      <p>Selectors are used to style HTML elements according to their type and/or attributes.</p>
+      </div>
+    <table>
+      <thead>
+        <tr>
+        <th>Type</th>
+        <th>Syntax</th>
+        <th colspan="2">Description</th>
+        <th>Example</th>
+        </tr>
+       </thead>
+      <tbody>
+        <tr class ="tablecolor">
+          <td>Element</td>
+          <td>element-name { }</td>
+          <td colspan="2">Use the name/tag (ie. h1) to apply styles to all associated content.</td>
+          <td> p {
+              color: red; }</td> 
+          </tr>
+        <tr>
+          <td>Class</td>
+          <td>.class-name { }</td>
+          <td colspan="2">Using "class ='name'" in your HTML tag, will apply CSS to all associated content.</td>
+          <td> .specialtext { font-weight: bold; } </td> 
+        </tr>
+        <tr class= "tablecolor">
+          <td>ID</td>
+          <td>#id-name</td>
+          <td colspan="2">Using "id='name'" in your HTML tag, will apply specified CSS to associated content</td>
+          <td>#specialpic { border-color: pink;}</td> 
+        </tr> 
+       <tr>
+          <td>Attributes</td>
+          <td>element[attribute='value']</td>
+          <td colspan="2">After placing an attribute on an HTML tag, you can use the attribute and value to apply specified CSS to the content. </td>
+          <td>div[type='clear'] { opacity: 0.6;} </td> 
+        </tr>  
+       </tbody>
+       </table>
+  <div>
+    <h1> But wait...Theres more!</h1>
+    <p> You can also assign CSS to elements only with a specific class value</p>
+  </div>
+  <table>
+    <thead>
+      <th>Syntax</th>
+      <th>Example</th>
+      </thead>
+    <tbody>
+      <tr>
+        <td>element.class</td>
+        <td> h3.black { color: black;}</td>
+        </tr>
+        </tbody>
+        </table>
+ </body>
+</html>
